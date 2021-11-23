@@ -6,6 +6,7 @@
 	const cartTable = document.querySelector(".cart-table__goods");
 	const modalForm = document.querySelector(".modal-form");
 	const modalInput = document.querySelectorAll(".modal-input");
+	const totalPrice = document.querySelector(".card-table__total");
 
 	const deleteCartItem = (id) => {
 		const cart = JSON.parse(localStorage.getItem("cart"));
@@ -66,6 +67,7 @@
 
 	const renderCartGoods = (goods) => {
 		cartTable.innerHTML = "";
+		totalPrice.innerHTML = "";
 
 		goods.forEach((good) => {
 			const tr = document.createElement("tr");
@@ -75,7 +77,7 @@
 				<td><button class="cart-btn-minus"">-</button></td>
 				<td>${good.count}</td>
 				<td><button class="cart-btn-plus"">+</button></td>
-				<td class="total-price">${+good.price * +good.count}$</td>
+				<td><span class="total">${+good.price * +good.count}</span>$</td>
 				<td><button class="cart-btn-delete"">x</button></td>
 			`;
 
@@ -91,6 +93,13 @@
 				}
 			});
 		});
+
+		const priceNumber = document.querySelectorAll(".total");
+		let total = 0;
+		for (i = 0; i < priceNumber.length; i++) {
+			total += +priceNumber[i].innerHTML;
+		}
+		totalPrice.innerHTML = `${total}$`;
 	};
 
 	const sendForm = () => {
