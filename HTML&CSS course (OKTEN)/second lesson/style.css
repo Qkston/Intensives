@@ -1,0 +1,23 @@
+h1,
+h2 {
+	text-align: center;
+	background: darkturquoise;
+	color: white;
+	border: 1px solid black;
+	border-bottom: 2px solid red;
+}
+
+.family-member-description {
+	text-align: justify;
+}
+
+.black-white {
+	background-color: #000;
+	color: #fff;
+}
+
+.footer-text {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+}
