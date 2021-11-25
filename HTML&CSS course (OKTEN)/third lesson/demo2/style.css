@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+.wrap {
+	background-color: seagreen;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.target {
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+}
+
+.point {
+	width: 200px;
+	height: 200px;
+	background-color: silver;
+}

@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+}
+
+.simpsons {
+	display: flex;
+	justify-content: space-evenly;
+	height: 600px;
+}
+
+.simpson {
+	width: 200px;
+}
+
+h2 {
+	text-align: center;
+	color: gold;
+}
+
+p {
+	text-align: justify;
+	padding-left: 20px;
+	border-left: 2px solid red;
+}
+
+img {
+	width: 200px;
+}
