@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>CV Andrey Slynko</title>
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,24 +15,121 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<header class="about-me">
-			<div>
-				<h1 class="my-name">Andrey Slynko</h1>
-				<div class="about-role">FRONTEND DEVELOPER | CHERKASSY</div>
-				<p class="about-text">
-					I’m a goal-oriented, creative and self-motivated web developer specializing in front-end. I am well familiar with CSS/HTML, Sass
-					and Less preprocessor, JS, cross-browser and adaptive markup skills. Eager to improve my skills, always try to learn new
-					technologies and stay up-to-date with Web development trends. I also learn quickly and easily communicate with people.
-				</p>
-			</div>
-			<img src="img/my-photo.jpg" alt="My photo" class="my-photo" />
-		</header>
-		<main class="main">
-			<section class="contacts">
-				<a class="contact-link" href="tel:+380671234567">+380671234567</a>
-				<a class="contact-link" href="mailto:qkston22@gmail.com">qkston22@gmail.com</a>
-				<a class="contact-link" href="t.me/qkston">Telegram</a>
-			</section>
-		</main>
+		<div class="page">
+			<!-- Header -->
+			<header class="about-me">
+				<div>
+					<!-- My first name and last name -->
+					<h1 class="my-name">Andrey Slynko</h1>
+					<!-- Position -->
+					<div class="about-role">FRONTEND DEVELOPER | CHERKASSY</div>
+					<!-- About me text -->
+					<p class="about-text">
+						I’m a goal-oriented, creative and self-motivated web developer specializing in front-end. I am well familiar with CSS/HTML,
+						Sass and Less preprocessor, JS, cross-browser and adaptive markup skills. Eager to improve my skills, always try to learn new
+						technologies and stay up-to-date with Web development trends. I also learn quickly and easily communicate with people.
+					</p>
+				</div>
+				<!-- My photo -->
+				<img src="img/my-photo.jpg" alt="My photo" class="my-photo" />
+			</header>
+
+			<!-- Main content -->
+			<main class="main">
+				<!-- Contacts -->
+				<section class="contacts">
+					<a class="contact-link" href="tel:+380671234567">+380671234567</a>
+					<a class="contact-link" href="mailto:qkston22@gmail.com">qkston22@gmail.com</a>
+					<a class="contact-link" href="t.me/qkston">Telegram</a>
+				</section>
+
+				<!-- Expiriance -->
+				<section class="info">
+					<h2 class="info-title">Experience</h2>
+					<div class="info-content">
+						<!-- First job -->
+						<article class="job">
+							<h3 class="job-title">Mate academy | 2018 - Present</h3>
+							<p class="job-description">
+								<strong>Projects:</strong> Shopify App (SPA React App), Travel Blog, (SPA React App), 360° Flat Viewer (Web app for 3D
+								apartments tours).
+							</p>
+							<p class="job-description">
+								<strong>Tech stack:</strong> React (Context, Hooks, Router), Redux, Redux Thunk, Styled Components, Shopify Polaris,
+								REST API (Axios), Node.js Express, Jest & Enzyme, Eslint (Airbnb config), Atlas MongoDB.
+							</p>
+							<p class="job-description">
+								<strong>My responsibilities:</strong> Creation FE of the application by using React & native JavaScript. Creation
+								temporary BE using Node.js Express for demo purpose.
+							</p>
+						</article>
+
+						<!-- Second job -->
+						<article class="job">
+							<h3 class="job-title">Studytube NL | 2016 - 2018</h3>
+							<p class="job-description">
+								<strong>Projects:</strong> A learning platform for web developers where articles from the authors’ community are
+								published.
+							</p>
+							<p class="job-description"><strong>Tech stack:</strong> React, Next.js, Express.js, Bootstrap-React, SCSS, TypeScript.</p>
+							<p class="job-description">
+								<strong>My responsibilities:</strong> Mostly I work on the development of logic and page layout on the client side. My
+								responsibilities include: User interface development, working with database, creating forms, routes for the server,
+								implementing analytics and displaying statistics. Also a little work with application back-end and databases.
+							</p>
+						</article>
+					</div>
+				</section>
+
+				<!-- Education -->
+				<section class="info">
+					<h2 class="info-title">Education</h2>
+					<div class="info-content">
+						<article class="study">
+							<h3 class="study-title">Cherkasy National University | 2019 - 2023</h3>
+							<p class="study-description">Bachelor degree in Computer Science, Intelligent and Control Systems</p>
+						</article>
+					</div>
+				</section>
+
+				<!-- Skills -->
+				<section class="info">
+					<h2 class="info-title">Skills</h2>
+					<div class="info-content">
+						<div class="skills">
+							<ul class="skills-list">
+								<li class="skills-item">HTML5</li>
+								<li class="skills-item">CSS3</li>
+								<li class="skills-item">Sass(SCSS)</li>
+							</ul>
+							<ul class="skills-list">
+								<li class="skills-item">BEM</li>
+								<li class="skills-item">JavaScript</li>
+								<li class="skills-item">Angular(TypeScript)</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- Tools -->
+				<section class="info">
+					<h2 class="info-title">Tools</h2>
+					<div class="info-content">
+						<div class="tools">
+							<ul class="tools-list">
+								<li class="tools-item">Figma</li>
+								<li class="tools-item">GIT</li>
+								<li class="tools-item">NPM</li>
+							</ul>
+							<ul class="tools-list">
+								<li class="tools-item">ESLint</li>
+								<li class="tools-item">VSCode</li>
+								<li class="tools-item">Parcel</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
 	</body>
 </html>
