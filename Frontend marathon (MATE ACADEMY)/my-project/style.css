@@ -1,0 +1,59 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 150%;
+}
+
+/* #region header */
+.about-me {
+	display: flex;
+	padding: 32px 40px 24px 40px;
+	background-color: #e25544;
+	color: #ffffff;
+}
+
+.my-name {
+	margin: 0 0 8px 0;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.about-role {
+	margin: 0 0 8px 0;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.about-text {
+	margin: 0;
+}
+
+.my-photo {
+	margin-left: 50px;
+	width: 114px;
+	/* height: 114px; */
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+/* #endregion */
+
+.main {
+	padding: 0 40px;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 0;
+}
+
+.contact-link {
+	text-decoration: none;
+	color: #485268;
+}
